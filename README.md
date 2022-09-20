@@ -1,5 +1,5 @@
 
-# Portifólio
+# Portifólio.
 
 Meu portifólio com alguns projetos.
 
