@@ -1,4 +1,9 @@
 
-Meu Portifólio com alguns projetos.
+# Portifolio
 
-![image](https://user-images.githubusercontent.com/99854369/191305166-bbfac00c-d94a-487c-aa8e-739d0cf20258.png)
+Meu portifólio com alguns projetos.
+
+
+![image](https://user-images.githubusercontent.com/73674173/191093665-9a6f2448-6c06-4872-aa8f-10d0b0e6ca87.png)
+
+https://thalyta-isaias.github.io/Portifolio/
