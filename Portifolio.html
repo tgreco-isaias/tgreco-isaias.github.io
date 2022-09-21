@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="sr"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="img/code.png">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <title>Portifólio</title>
+</head>
+
+<body style="height: 100%;">
+
+    <div class="nav">
+        <ul class="navmob">
+            <li><a href="#" class="navmob" id="logo"><i class="bx bx-code-alt" style="color:#ffffff"></i></a></li>
+            <li><a class="navmob" href="#inicio">Sobre mim</a></li>
+            <li><a class="navmob" href="#projeto2">Portifólio</a></li>
+            <li><a class="navmob" href="#footer">Contato</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="topnav">
+        <a href="#home" class="active"><i id="logomob" class="bx bx-code-alt" style="color:#ffffff"></i></a>
+        <div id="myLinks">
+            <a class="navmob" href="#inicio"><i class="bx bx-user-pin" style="color:#0344f8"></i> Sobre mim</a>
+            <a class="navmob" href="#projeto2"><i class="bx bx-folder-open" style="color:#0344f8"></i> Portifólio</a>
+            <a href="https://www.linkedin.com/in/thalyta-greco/" target="_blank"><i class="bx bxl-linkedin-square" style="color:#0344f8"></i> Linkedin</a>
+            <a href="https://github.com/tgreco-isaias" target="_blank"><i class="bx bxl-github" style="color:#0344f8"></i> Github</a>
+            <a href="mailto:tgreco_isaias@hotmail.com"><i class="bx bx-envelope" style="color:#0344f8"></i> E-mail</a>
+        </div>
+        <a class="icon" onclick="myFunction()">
+            <i class="bx bx-menu-alt-right" style="color:#ffffff"></i>
+        </a>
+    </div>
+
+
+    <div class="espaco"></div>
+
+    
+
+    <div class="inicio" id="inicio" data-sr-id="2" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">
+        <div class="index">
+            <div class="container">
+                <h3 id="titulo">Olá, Sou Thalyta Greco, <br> Desenvolvedora Jr.</h3>
+            </div>
+            <br><br><br>
+
+            <div class="cards">
+                <div class="card1"><a href="https://www.linkedin.com/in/thalyta-greco/" target="_blank"> <div class="icon"><i class="bx bxl-linkedin-square" style="color:#0344f8"></i> </div>  Linkedin</a></div>
+                <div class="card2"><a href="https://github.com/tgreco-isaias" target="_blank"><div class="icon"><i class="bx bxl-github" style="color:#0344f8"></i></div> Github</a></div>
+            </div>
+        </div>
+        <img src="imagens/undraw_version_control_re_mg67.svg" id="svg" alt="">
+    </div>
+    <div class="espaco"></div>
+    <h3 class="textcenter" data-sr-id="3" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Tecnologias que eu trabalho:</h3>
+    <div class="espaco"></div>
+    <div class="tecnologias" id="tecnologias" data-sr-id="0" style="visibility: visible; opacity: 1; transition: opacity 3s cubic-bezier(0.5, 0, 0, 1) 0s;">
+        <div class="tec">
+            <div class="icones"><i class="bx bxl-javascript" style="color:#0344f8"></i></div> JAVASCRIPT</div>
+        <div class="tec">
+            <div class="icones"><i class="bx bxl-html5" style="color:#0344f8"></i></div>HTML5</div>
+        <div class="tec">
+            <div class="icones"><i class="bx bxl-css3" style="color:#0344f8"></i></div>CSS3</div>
+        <div class="tec">
+            <div class="icones"><i class="bx bxl-bootstrap" style="color:#0344f8"></i></div>BOOTSTRAP</div>
+        <div class="tec">
+            <div class="icones"><i class="bx bxs-data" style="color:#0344f8"></i></div>SQL SERVER</div>
+    </div>
+    <div class="espaco"></div>
+<br><br><br>
+
+    <h3 class="textcenter" data-sr-id="4" style="visibility: visible; opacity: 0; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Alguns dos meus projetos:</h3>
+    <br>
+
+    <div class="projeto2" id="projeto2">
+        <h3 class="textcenter" data-sr-id="5" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Criando Conta.</h3>
+        <h4 class="descricao" data-sr-id="9" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Essa pagina web foi criada utilizando as tecnologias HTML e CSS utilizando a ferramenta VSCode <br> O que diferencia esse sistema para criar uma conta é a possibilidade de personalizar sua tela de login,
+            o preenchimento do formulário é salvo e uma cópia automaticamente no dispositivo atual e os dados são direcionados para um email especifico por meio de uma API.</h4>
+        <br><br><br><br><br><br>
+        
+        <div class="swiffy-slider" data-sr-id="12" style="visibility: visible; opacity: 1; transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+            <ul class="slider-container">
+                <li><img src="imagens/create.jpg" style="max-width: 1300px;height: auto;"></li>
+               
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+            
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                
+            </div>
+        </div>
+        <br><br>
+
+
+        <a class="link" href="file:///C:/Users/TG/Desktop/Cadastro/index.html" target="_blank">Clique aqui para acessar a página</a>
+
+
+        <div class="projeto3" id="projeto3">
+            <h3 class="textcenter" data-sr-id="5" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Mini Game Basquete.</h3>
+            <h4 class="descricao" data-sr-id="9" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Esse mini game foi criado utilizando as tecnologias Javascript, HTML e CSS utilizando a ferramenta VSCode <br> O  objetivo é mover a cesta em direção a bola para acumular pontos.</h4>
+            <br><br><br><br><br><br>
+            
+            <div class="swiffy-slider" data-sr-id="12" style="visibility: visible; opacity: 1; transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                <ul class="slider-container">
+                    <li><img src="imagens/basqueteminigame.JPG" style="max-width: 1300px;height: auto;"></li>
+                    <li><img src="imagens/basquete2.JPG" style="max-width: 1300px;height: auto;"></li>
+                   
+                </ul>
+            
+                <button type="button" class="slider-nav"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>
+                
+                <div class="slider-indicators">
+                    <button class="active"></button>
+                    <button></button>
+                    
+                </div>
+            </div>
+            <br><br>
+    
+    
+            <a class="link" href="file:///C:/Users/TG/Desktop/Basquete%20Game/index.html" target="_blank">Clique aqui para acessar o link do jogo</a>
+
+    
+        </div>
+        
+
+    </div>
+
+    <div class="projeto3" id="projeto3">
+        <h3 class="textcenter" data-sr-id="5" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;"> Mini Game da Memória.</h3>
+        <h4 class="descricao" data-sr-id="9" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Esse mini game foi criado utilizando as tecnologias Javascript, HTML e CSS utilizando a ferramenta VSCode <br> O objetivo é encontrar os pares, memorizando as cartas que forem viradas.
+          Um diferencial é o botão de renicialização do jogo, assim mundando a ordem e posição das cartas. </h4>
+        <br><br><br><br><br><br>
+        
+        <div class="swiffy-slider" data-sr-id="12" style="visibility: visible; opacity: 1; transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+            <ul class="slider-container">
+                <li><img src="imagens/memoryminigame.jpg" style="max-width: 1300px;height: auto;"></li>
+                <li><img src="imagens/memoryminigame2.jpg" style="max-width: 1300px;height: auto;"></li>
+               
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+            
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                
+            </div>
+        </div>
+        <br><br>
+
+
+        <a class="link" href="file:///C:/Users/TG/Desktop/Jogo%20da%20Memoria/index.html" target="_blank">Clique aqui para acessar o link do jogo</a>
+
+
+    </div>
+
+    <h3 class="textcenter" data-sr-id="8" style="visibility: visible; opacity: 1; transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;">Vamos trabalhar juntos?</h3>
+        <br>
+    <br>
+    <div class="footer" id="footer">
+        <div class="cnt">
+          
+                <input type="hidden" name="accessKey" value="77680ce8-cc7a-4edd-8f93-c31aba49a6c0">
+                <input type="hidden" name="redirectTo" value="https://github.com/tgreco-isaias/Portifolio/">
+                <h3>Digite seu endereço de email</h3>
+                <input class="textbox" type="text" id="email" placeholder="E-mail" name="email" required=""><br><br>
+                <input type="submit" id="submit" onclick="enviarEmail()">
+           
+            
+        </div>
+        <br>
+        <p>© 2022 Copyright: Thalyta Greco</p>
+</div>
+            <br>
+            <p>© 2022 Copyright: thalyta-greco</p>
+    </div>
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer=""></script>
+    <script src="js/js.js"></script>
+
+    <script>
+
+        function enviarEmail(){
+            const data = { to: document.getElementById('email').value };
+
+fetch("http://localhost:8383/sendmail", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(data),
+})
+  .then((response) => response.json())
+  .then((data) => {
+    alert('Email enviado com sucesso!');
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+    alert('Erro ao enviar e-mail');
+  });
+        }
+
+    </script>
+    
+
+
+
+
+
+
+</body>
