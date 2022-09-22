@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Basquete Game\\.vscode",
+    "\\Basquete Game\\css",
+    "\\Cadastro",
+    "\\Jogo da Memoria"
   ],
-  "SelectedNode": "\\C:\\Users\\TG\\Source\\Repos\\tgreco-isaias.github.io",
+  "SelectedNode": "\\Jogo da Memoria\\index.html",
   "PreviewInSolutionExplorer": false
 }
