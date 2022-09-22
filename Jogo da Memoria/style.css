@@ -3,17 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* --display: flex; */
 body {
   height: 100vh;
-  display: flex;
+ 
   background: #a2ce3b;
 }
 
 #cardboard {
   width: 640px;
   height: 640px;
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -56,16 +56,16 @@ body {
 
   left: calc(50% - 750px);
     top: 100px;
-    position: absolute;
-    width: 430px;
-    height: 100px;
+    /* position: absolute; */
+    /* width: 430px;
+    height: 100px; */
     font-size: 20px;
-    text-align:left ;
+    /* text-align:left ; */
     color: rgb(30, 34, 31)  
   
 }
 
-#restart {
+/* #restart {
   position: absolute;
   top: 30px;
   left: 750px;
@@ -73,7 +73,7 @@ body {
   color: rgb(16, 15, 15)3, 21, 21);
   font-size: 20px;
   text-align:justify;
- }
+ } */
 
       
 

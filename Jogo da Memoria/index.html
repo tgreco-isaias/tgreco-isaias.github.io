@@ -6,19 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Memória</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+
+
 </head>
 <body>
+    <!-- <div id="restart" onclick="restart()">Restart ⟳</div> -->
 
-<div id="cardboard"></div>
-<script src="main.js"></script>
+<div class="row">
 
-<div class="guia">INSTRUÇÕES:<br><br>*O objetivo é encontrar todos os pares. <br>* Use o click do mouse para revelar pares.
+    <div class="col-md-4">
+            INSTRUÇÕES:<br>*O objetivo é encontrar todos os pares. <br>* Use o click do mouse para revelar pares.
+    </div>
+    <div class="col-md-4">
+        <div class="pull-right">
+            <button class="btn btn-primary" type="button" onclick="restart()">Reiniciar Jogo</button>
+
+        </div>
+
+    </div>
+    <div class="col-md-12">
+        <div id="cardboard"></div>
+    </div>
     
 </div>
 
-<div id="restart" onclick="restart()">Restart ⟳</div>
-
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+    
 </body>
+
+
 
 
 
